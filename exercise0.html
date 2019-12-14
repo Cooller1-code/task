@@ -1,0 +1,10 @@
+<form><input type=text name=name value=''><input type=submit></form>
+<script type=text/javascript>
+function $w(s){document.write(s);}
+s=location.search.substr(1);
+a=s.split('&');
+for (i in a){
+b=a[i].split('=');
+$w(b[0]+'='+b[1]+'<br>');
+}
+</script>
